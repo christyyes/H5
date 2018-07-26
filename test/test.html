@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <style type="text/css">
+        body {
+            background-image: url(./images/iu.jpg);
+            background-size: 100% 180%;
+            height: 100%;
+        }
+
+        html {
+            height: 100%;
+        }
+
+        @keyframes myfirst {
+
+            0% {opacity:0}
+            20%{opacity:50}
+            75%{opacity: 0}
+            100%{opacity:0}
+        }
+        @keyframes mysecond {
+            0% {opacity:0}
+            50%{opacity:0}
+            75%{opacity: 100}
+            100%{opacity:20}
+        }
+        p{
+            font-size: 50px;
+
+            width: 80%;
+            text-align: justify-all;
+
+        }
+        #one{
+            animation: myfirst 20s infinite;
+        }
+        #two{
+            animation: mysecond 20s infinite;
+        }
+
+    </style>
+</head>
+<body>
+<audio  controls="controls " muted autoplay="autoplay" loop="loop">
+    <source src="wav/bgm.wav" type="audio/wav">
+</audio>
+
+<p id="one">有一颗
+我从小仰望的星星悄悄殒落</p>
+<p id="two">爱情的神经
+以后 一快乐 就难过</p>
+
+
+</body>
+</html>
+
+
