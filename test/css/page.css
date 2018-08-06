@@ -11,6 +11,11 @@ page{
     text-align: center;
     padding-top: 30%;
 }
+#b {
+    font-size: 36px;
+    display: block;
+    animation: b 4s infinite;
+}
 #c{
     background-color: green;
     animation: c 4s infinite;
@@ -20,12 +25,21 @@ page{
     animation: x 4s infinite;
 }
 #q{
-    background-color: gold;
+    background-image:url("../images/iu.jpg");
+    background-size: 100% 180%;
+    height: 100%;
     animation: q 4s infinite;
 }
 #d{
     background-color: purple;
     animation: d 4s infinite;
+}
+@keyframes b {
+    0%{opacity: 0}
+    70%{opacity:0 }
+    80%{opacity:100 }
+    90%{opacity:0 }
+    100%{opacity:0 }
 }
 @keyframes c {
     0%{opacity: 0}
