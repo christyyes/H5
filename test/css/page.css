@@ -14,25 +14,25 @@ page{
 #b {
     font-size: 36px;
     display: block;
-    animation: b 4s infinite;
+    animation: b 9s infinite;
 }
 #c{
     background-color: green;
-    animation: c 4s infinite;
+    animation: c 9s infinite;
 }
 #x{
     background-color: lightskyblue;
-    animation: x 4s infinite;
+    animation: x 9s infinite;
 }
 #q{
     background-image:url("../images/iu.jpg");
     background-size: 100% 180%;
     height: 100%;
-    animation: q 4s infinite;
+    animation: q 9s infinite;
 }
 #d{
     background-color: purple;
-    animation: d 4s infinite;
+    animation: d 9s infinite;
 }
 @keyframes b {
     0%{opacity: 0}
